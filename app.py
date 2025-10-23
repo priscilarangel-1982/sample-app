@@ -1,1 +1,1 @@
-print("Hello from sample-app!")
+print("Hello from sample-app development!")
