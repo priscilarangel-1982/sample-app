@@ -3,4 +3,7 @@ steps:
   args: ['builds', 'submit', '--tag', 'gcr.io/$PROJECT_ID/sample-app:$COMMIT_SHA']
 images:
 - 'gcr.io/$PROJECT_ID/sample-app:$COMMIT_SHA'
+options:
+  logging: CLOUD_LOGGING_ONLY
+
 
